@@ -67,10 +67,10 @@ const returnBlue = () => {
     <button @click="awesome = !awesome">toggle</button>
 
     <!-- <h1 v-if="awesome">Condition met</h1> -->
-    <h1 v-if="awesome">Condition met</h1>
+    <h1 v-if="awesome">Condition is met! :D</h1>
     <h1 v-if="awesome">Vue is awesome!</h1>
     <h1 v-else>Oh no </h1>
-<!-- 
+
     <div id="example1">
         <h1 v-show="awesome">Condition met</h1>
     </div>
@@ -82,8 +82,8 @@ const returnBlue = () => {
     </div>
 
     <li v-for="(item, index) in items">
-        {{ parentMessage }} - {{ index }} - {{ item.message }}
-    </li> -->
+        {{ parentMessage }} & {{ index }} & {{ item.message }}
+    </li>
 </template>
 
 <style scoped>
